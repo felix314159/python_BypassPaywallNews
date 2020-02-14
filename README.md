@@ -1,4 +1,4 @@
-# python_FinancialTimesForFree
+# python_BypassPaywallNews
 Download paywalled articles from Financial Times and WSJ for free!
 
 How to use this?
