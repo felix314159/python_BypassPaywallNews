@@ -10,7 +10,7 @@ def download(url):
         # we disguise as a google bot to get access to the p2w news lel
         headers={
             'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html',
-            'Referrer': 'https://www.google.com/'
+            'Referer': 'https://www.google.com/'
         })
     response = urllib.request.urlopen(temp)
     webContent = response.read()
